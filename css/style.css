@@ -1,16 +1,15 @@
+/* initial CSS codes */
+
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
     /* comfortable font-size for rem unit*/
 }
 
-
-/* initial CSS codes */
-
 :root {
-    --clr-primary: #00BAFC;
+    --clr-primary: #000000;
     --clr-light: rgb(255, 255, 255);
-    --clr-bg: rgb(235, 232, 232);
+    --clr-bg: rgb(255, 255, 255);
     --clr-text: rgb(0, 0, 0);
 }
 
@@ -33,11 +32,10 @@ section,
 footer,
 {
     padding: 3rem 0;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-bg;
 }
 
-ul,
-ol {
+ul, ol {
     list-style: none;
 }
 
@@ -56,9 +54,7 @@ img {
     height: auto;
 }
 
-h2,
-h3,
-p {
+h2, h3, p {
     margin-bottom: 1em;
 }
 
@@ -75,3 +71,6 @@ p {
 .text-right {
     text-align: right;
 }
+
+
+/* end of initial CSS codes */
