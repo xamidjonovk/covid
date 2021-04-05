@@ -12,13 +12,14 @@ html {
     --clr-bg: rgb(255, 255, 255);
     --clr-text: rgb(0, 0, 0);
     --font-header: 'Red Hat Display', sans-serif;
+    --font-paragraph: 'Gelion', sans-serif;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-paragraph);
 }
 
 body {
