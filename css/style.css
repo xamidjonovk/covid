@@ -115,6 +115,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 
 .nav-list {
@@ -169,12 +170,20 @@ p {
 
 .alert {
     padding: 70px 0;
+    background-image: url(../img/sitting-down.png);
+    background-size: 720px 500px;
+    background-repeat: no-repeat;
+    background-position: right 30px top 60px;
+}
+
+.alert-div {
+    margin-top: 160px;
+    margin-bottom: 30px;
 }
 
 .alert .container {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .img-box {
@@ -210,7 +219,7 @@ p {
 }
 
 .virus-img {
-    width: 50%;
+    width: 36%;
 }
 
 .virus-img img {
@@ -397,4 +406,18 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+input {
+    width: 40%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 57px;
+}
+
+.quest-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
