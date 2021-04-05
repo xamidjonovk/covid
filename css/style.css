@@ -11,6 +11,7 @@ html {
     --clr-light: rgb(255, 255, 255);
     --clr-bg: rgb(255, 255, 255);
     --clr-text: rgb(0, 0, 0);
+    --font-header: 'Red Hat Display', sans-serif;
 }
 
 * {
@@ -52,6 +53,10 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+h2 {
+    font-family: var(--font-header);
 }
 
 h2, h3, p {
