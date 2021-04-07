@@ -475,3 +475,70 @@ button:hover {
 
 
 /* QUESTION-SECTION ENDED*/
+
+
+/* Footer */
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list li {
+    margin-right: 30px;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact li {
+    margin-right: 18px;
+}
+
+.contact img {
+    transition: all 0.5s;
+}
+
+.contact img:hover {
+    transform: scale(0.8);
+}
+
+.footer-list a {
+    transition: all 0.5s;
+}
+
+.footer-list a:hover {
+    color: var(--clr-red);
+}
+
+.footer-list a {
+    color: #035755;
+    font-size: 18px;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.all-rights {
+    color: var(--clr-primary);
+}
+
+@media (max-width: 1270px) {
+    .stats {
+        flex-direction: column;
+    }
+}
